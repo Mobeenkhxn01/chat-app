@@ -1,10 +1,9 @@
-function App() {
+import { ChatApplication } from "@/components/chat-application"
 
+export default function Home() {
   return (
-    <div className='flex justify-center items-center p-6'>
-       Hi
+    <div className="h-screen w-full">
+      <ChatApplication />
     </div>
   )
 }
-
-export default App
